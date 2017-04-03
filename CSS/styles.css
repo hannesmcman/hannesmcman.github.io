@@ -4,10 +4,12 @@ p {
 }
 
 ul {
-	background-color:black;
+	background-color:#333333;
 	list-style-type:none;
 	margin: 0;
 	padding: 0;
+	width:100%;
+	overflow: hidden;
 }
 
 li {
