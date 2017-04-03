@@ -9,6 +9,10 @@ p {
 ul {
 	background-color:black;
 	color:white;
+	list-style-type:none;
+}
+
+li {
 	float:left;
 }
 
