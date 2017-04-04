@@ -1,4 +1,82 @@
 <link href="https://www.stolaf.edu/sis/sis-stylesheet.css" rel="stylesheet" type="text/css">
+<head>
+	<style>
+		ul#menu {
+			background-color:#333333;
+			list-style-type:none;
+			margin: 0;
+			padding: 0;
+			width:100%;
+			height:3%;
+			overflow: hidden;
+	
+		}
+
+		li {
+			float:left;
+		}
+
+		li a {
+			display:block;
+			color:white;
+			text-align:center;
+			padding:10px;
+			text-decoration:none;
+		}
+
+		li a:hover, .dropdown:hover {
+			background-color:#111111;
+		}
+
+		li.dropdown {
+			display:inline-block;
+		}
+
+		li a, .dropbutton {
+			display:inline-block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		.dropdown-content {
+		    display: none;
+		    position: absolute;
+		    background-color: #f9f9f9;
+		    min-width: 160px;
+		    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		    z-index: 1;
+		}
+
+		.dropdown-content a {
+		    color: black;
+		    padding: 12px 16px;
+		    text-decoration: none;
+		    display: block;
+		    text-align: left;
+		}
+
+		.dropdown-content a:hover {background-color: #f1f1f1}
+
+		.dropdown:hover .dropdown-content {
+		    display: block;
+		}
+		</style>
+	</head>
+<ul id="menu">
+<li><a href="..">Home</a></li>
+<li><a href="#info">Info</a></li>
+<li class="dropdown">
+	<a href="javascript:void(0)" class="dropbutton">Class and Lab Schedules</a>
+	<div class="dropdown-content">
+		<a href="#1">Spring 2017-2018</a>
+		<a href="#2">Interim 2017-2018</a>
+		<a href="../Fall_2017_2018">Fall 2017-2018</a>
+	</div>
+</li>
+
+</ul>
 <h4>Class and Lab for 2017-2018, Semester 1</h4>
 <table id="table2export" cellpadding="0" cellspacing="1" width="100%" border="0">
 <tr class="sis-tblheader">
