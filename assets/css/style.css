@@ -1,0 +1,297 @@
+.jumbotron {
+
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+  background: url(../../images/jumbo-background.jpg) 50% no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#title-jumbotron {
+    height: 100%;
+    /*background: url(../../images/jumbo-background.jpg) 50% no-repeat;
+    background-size: cover;*/
+    color: white;
+    padding: 0;
+    background: none;
+}
+
+#projects-jumbotron {
+    background-color: #628395;
+    color: white;
+    margin: 0;
+    overflow: auto;
+}
+
+#contact-jumbotron {
+    /*background-color: #79A135;*/
+    background: none;
+    overflow: auto;
+}
+
+#about-jumbotron {
+    background-color: #DEB971;
+    /*background: none;*/
+    color: white;
+}
+
+#main-heading {
+    display: none;
+}
+
+#navigation-bar {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 0;
+    padding: 0px;
+}
+
+#title-jumbotron-text {
+    height: 100%;
+}
+
+#logo-big {
+  /*width: 100% \9;*/
+  /*height: 50%;*/
+  width: 60%;
+
+}
+
+#J-big:hover {
+  fill: #959D45;
+}
+
+#M-big:hover {
+  fill: #A87A50;
+}
+
+#C-big:hover {
+  fill: #D4BE98;
+}
+
+.card {
+    border: none;
+    margin-bottom: 20px;
+
+}
+
+.card-block {
+    color: black;
+}
+
+/*#about-header {
+    left: -800px;
+}
+
+#about-content {
+    left: 3000px;
+}*/
+
+#about-text {
+    padding-top: 42px;
+    font-size: 115%;
+}
+
+/*#projects-header-container {
+    left: 3000px;
+}
+
+#projects-cards-container {
+    left: -2000px;
+}*/
+
+#contact-content-container {
+    text-align: center;
+}
+
+#headshot {
+    width: 100%;
+}
+
+#contact-info {
+    text-align: right;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#J:hover {
+  fill: #959D45;
+}
+
+#M:hover {
+  fill: #A87A50;
+}
+
+#C:hover {
+  fill: #D4BE98;
+}
+
+#logo {
+  width: 100px;
+  height: 50px;
+}
+
+#logo-link {
+  width: 100px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar-toggler {
+  margin: 4px 0px;
+  padding: 0px;
+  border: none !important;
+  outline: none !important;
+}
+
+#eyes {
+  width: 60px;
+  height: 50px;
+}
+
+#stickman {
+  width: 143px;
+}
+
+#stickman-container {
+  text-align: center;
+  /*background: url(../../images/water_rolling.gif) 50% no-repeat;
+  background-size: cover;*/
+}
+
+#box-container {
+  text-align: center;
+}
+
+#box {
+  width: 70%;
+}
+
+#projects-tiles-container {
+  padding: 30px;
+}
+
+#main-tile .front {
+  background: url(../../images/projects-background.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+.main-tile {
+  height: 100%;
+  width: 98%;
+}
+
+.tile {
+  opacity: 0.9;
+  padding: 0px;
+  height: 250px;
+}
+
+#test {
+  width: 100px;
+}
+
+.tile-header {
+  text-align: center;
+}
+
+.tile-text {
+
+}
+
+.tile-front-image {
+  width: 100%;
+  height: 100%;
+}
+
+.back {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  text-align: center;
+}
+
+.btn-custom {
+  background-color: #628395;
+  border-color: #628395;
+  color: white;
+}
+
+/*.tile:hover {
+  background-blend-mode: multiply;
+}*/
+#hipercic-tile {
+  /*background: url(../../images/hipercic-image.png) 50% no-repeat;
+  background-size: cover;*/
+}
+
+#johannescarlsen-tile {
+  /*background: url(../../images/small-background.jpeg) 50% no-repeat;
+  background-size: cover;*/
+}
+
+#AAO-tile {
+  /*background: url(../../images/small-background.jpeg) 50% no-repeat;
+  background-size: cover;*/
+}
+
+#aao-logo {
+  width: 75%;
+  margin-left: 45px;
+}
+
+#tile-1 {
+  background: url(../../images/jumbo.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+#tile-2 {
+  background: url(../../images/bridge.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+#tile-3 {
+  background: url(../../images/city.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+#tile-4 {
+  background: url(../../images/flower.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+#tile-5 {
+  background: url(../../images/footprint.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+#tile-6 {
+  background: url(../../images/leaf.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+#tile-7 {
+  background: url(../../images/moon.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+#tile-8 {
+  background: url(../../images/norway.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+#tile-9 {
+  background: url(../../images/halo-moon.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+#tile-10 {
+  background: url(../../images/stormdrain.jpg) 50% no-repeat;
+  background-size: cover;
+}

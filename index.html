@@ -1,36 +1,424 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>Johannes McManus Carlsen's WebPage</title>
-	<link rel="stylesheet" href="/CSS/styles.css">
-	<meta name="keywords" content="Johannes, McManus, Carlsen">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-social.css">
+    <link rel="stylesheet" href="assets/aos-master/dist/aos.css">
+
+    <script src="./assets/aos-master/dist/aos.js"></script>
+
 </head>
+
 <body>
 
-<ul id="menu">
-<li><a href="#home">Home</a></li>
-<li><a href="#info">Info</a></li>
-<li class="dropdown">
-	<a href="javascript:void(0)" class="dropbutton">Class and Lab Schedules</a>
-	<div class="dropdown-content">
-		<a href="#1">Spring 2017-2018</a>
-		<a href="#2">Interim 2017-2018</a>
-		<a href="/Fall_2017_2018">Fall 2017-2018</a>
-	</div>
-</li>
+    <div id="title-jumbotron" class="jumbotron jumbotron-fluid">
+        <div id="navigation-bar" class="container-fluid">
 
-</ul>
+            <nav class="navbar navbar-toggleable-md navbar-inverse">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <svg id="eyes" version="1.1" viewBox="105 140 97 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                       <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+                       <g>
+                        <ellipse ry="43.500001" rx="26" id="left_eye" cy="186.000001" cx="132" stroke-width="1.5" fill="#fff"/>
+                        <ellipse ry="43.500001" rx="26" id="right_eye" cy="186.000001" cx="175" stroke-width="1.5" fill="#fff"/>
+                        <ellipse stroke="#000000" ry="6.5" rx="6" id="left-pupil" cy="194" cx="132" stroke-width="1.5" fill="#000000"/>
+                        <ellipse stroke="#000000" ry="6.5" rx="6" id="right-pupil" cy="195" cx="173" stroke-width="1.5" fill="#000000"/>
+                       </g>
+                      </svg>
 
-<h1 style="text-align:center;">Hello World</h1>
-<p id="demo">I'm hosted with GitHub Pages.</p>
-<button type="button" onclick="myFunction()">Click Here!</button>
 
-<script>
-	function myFunction() {
-		document.getElementById("demo").innerHTML = "Demo Works"
-	}
-</script>
-	
+                     </g>
+                    </svg>
+                </button>
+                <a id="logo-link" class="navbar-brand" href="http://www.johannescarlsen.com">
+                <svg id="logo" version="1.1" viewBox="150 150 110 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                 <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+                 <text stroke="#000000" transform="rotate(-27 181.69531249999986,199.65277099609372) matrix(3.9185667037963867,0,0,3.1111111640930176,-447.99998903274536,-329.33334159851074) " xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="J" y="176.537148" x="153.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="white">J</text>
+                 <text stroke="#000000" transform="rotate(-18 222.55213928222668,202.97508239746102) matrix(3.6734944091195985,0,0,2.7142029435569226,-762.8914267773573,-292.13372173698775) " xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="C" y="188.925692" x="261.072373" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="white">C</text>
+                 <text stroke="#000000" transform="rotate(-27 207.67366027832028,177.90252685546878) matrix(1.807599041040564,0,0,1.005307347917614,-291.88740557312497,12.026808049426009) " xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="M" y="171.16852" x="269.181313" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="white">M</text>
+
+                </svg>
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-jumbotron">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects-jumbotron">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Resume.pdf">Resum&eacute;</a>
+                        </li>
+
+                    </ul>
+                    <ul class="navbar-nav" style="margin-top: 6px;">
+                      <li class="nav-item">
+                        <a class="btn btn-social-icon btn-facebook btn-sm" href="http://facebook.com/johannes.m.carlsen">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-linkedin btn-sm" href="http://www.linkedin.com/in/johannes-carlsen">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-github btn-sm" href="https://github.com/hannesmcman">
+                            <i class="fa fa-github"></i>
+                        </a>
+                      </li>
+                    </ul>
+
+                </div>
+            </nav>
+
+
+        </div>
+        <div id="title-jumbotron-text" class="d-flex">
+          <svg id="logo-big" class="my-auto mx-auto" version="1.1" viewBox="145 160 120 75" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+           <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+           <text class="big-logo-letter" stroke="#000000" transform="rotate(-27 181.69531249999986,199.65277099609372) matrix(3.9185667037963867,0,0,3.1111111640930176,-447.99998903274536,-329.33334159851074) " xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="J-big" y="176.537148" x="153.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="white">J</text>
+           <text class="big-logo-letter" stroke="#000000" transform="rotate(-18 222.55213928222668,202.97508239746102) matrix(3.6734944091195985,0,0,2.7142029435569226,-762.8914267773573,-292.13372173698775) " xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="C-big" y="188.925692" x="261.072373" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="white">C</text>
+           <text class="big-logo-letter" stroke="#000000" transform="rotate(-27 207.67366027832028,177.90252685546878) matrix(1.807599041040564,0,0,1.005307347917614,-291.88740557312497,12.026808049426009) " xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="M-big" y="171.16852" x="269.181313" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="white">M</text>
+
+          </svg>
+        </div>
+    </div>
+    <!-- <div class="container"> -->
+      <!-- <div class="row" >
+        <div id="tile-1" class="col-3 tile" data-aos= "flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"></div>
+        <div id="tile-2" class="col-3 tile" data-aos= "flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"></div>
+        <div id="tile-3" class="col-3 tile" data-aos= "flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"></div>
+        <div id="tile-4" class="col-3 tile" data-aos= "flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"></div>
+        <div id="tile-5" class="col-3 tile" data-aos= "flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"></div>
+        <div class="col-6 tile" data-aos= "flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+          <div id="main-tile">
+            <div class="front">
+
+            </div>
+            <div class="back">
+              <h2>Back</h2>
+            </div>
+          </div>
+        </div>
+        <div id="tile-6" class="col-3 tile" data-aos= "flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"></div>
+        <div id="tile-7" class="col-3 tile" data-aos= "flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"></div>
+        <div id="tile-8" class="col-3 tile" data-aos= "flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"></div>
+        <div id="tile-9" class="col-3 tile" data-aos= "flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"></div>
+        <div id="tile-10" class="col-3 tile" data-aos= "flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"></div>
+
+      </div> -->
+    <!-- </div> -->
+
+    <!-- <div id="stickman-container" class="container" data-aos="fade-right">
+      <svg id="stickman" version="1.1" viewBox="0 0 20 50" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+          <pattern id="water" patternUnits="userSpaceOnUse" width="20" height="20">
+            <image xlink:href="images/water_rolling.gif" x="0" y="0" width="20" height="20" />
+          </pattern>
+        </defs>
+
+        <g id="body">
+          <circle id="head" class="body-part" cx="10" cy="10" r="5" fill="url(#water)"/>
+          <line class="body-part" x1="10" y1="15" x2="10" y2="35" stroke="white" stroke-width="1"/>
+          <line id="right-arm" class="body-part" x1="10" y1="25" x2="20" y2="18" stroke="white" stroke-width="1"/>
+          <line id="left-arm" class="body-part" x1="10" y1="25" x2="0" y2="18" stroke="white" stroke-width="1"/>
+          <line id="right-leg" class="body-part" x1="10" y1="35" x2="15" y2="45" stroke="white" stroke-width="1"/>
+          <line id="left-leg" class="body-part" x1="10" y1="35" x2="5" y2="45" stroke="white" stroke-width="1"/>
+        </g>
+
+      </svg>
+    </div> -->
+
+    <!-- <div id="box-container" class="container">
+      <svg id="box" viewBox="198.5 16.5 300 350" xmlns="http://www.w3.org/2000/svg">
+       <defs>
+         <pattern id="wood" patternUnits="userSpaceOnUse" width="800" height="300">
+           <image xlink:href="images/wood.jpg" x="0" y="0" width="800" height="300" />
+         </pattern>
+       </defs>
+       <g>
+        <rect id="box_top" height="76" width="300" y="116.5" x="198.5" stroke-width="1.5" stroke="#000" fill="url(#wood)"/>
+        <rect id="box_bottom" height="76" width="300" y="192.5" x="198.5" stroke-width="1.5" stroke="#000" fill="url(#wood)"/>
+        <ellipse id="latch" ry="11.5" rx="11.5" cy="193" cx="348.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#E6C36A"/>
+        <ellipse id="key" ry="5" rx="18.5" cy="193.5" cx="348.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#E6C36A"/>
+       </g>
+      </svg>
+    </div> -->
+
+
+    <div id="about-jumbotron" class="jumbotron" data-aos="fade-up">
+        <div id="about-header" class="container">
+            <h1 class="display-3">About</h1>
+            <p class="lead">Here's a little about me.</p>
+        </div>
+        <div id="about-content" class="container">
+            <div class="row">
+                <div id="about-text" class="col-md-8">
+                    <p>I am currently a junior at St. Olaf College majoring in Computer Science and Math. At school, I work as a teaching assistant and grader for the Computer Science department. Before college, I worked as a cashier at the Riverview Theater and as a carpenter for Quartersawn Design Build in Minneapolis. I spent this past summer working as a Software Engineering Intern at Optum, during which I had the opportunity to take part in the design and implementation of a new testing framework for a blue chip product. Since my entrance into the exciting world of software development, I have been committed to writing smart, sustainable code and hope to find a career doing what I love to do!</p>
+                </div>
+                <div class="col-md-4" style="text-align: center;">
+                    <!-- <img id="headshot" src="images/headshot.jpg"> -->
+                    <svg id="stickman" version="1.1" viewBox="0 0 20 50" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <defs>
+                        <pattern id="water" patternUnits="userSpaceOnUse" width="20" height="20">
+                          <image xlink:href="images/water_rolling.gif" x="0" y="0" width="20" height="20"></image>
+                        </pattern>
+                        <pattern id="myface" patternUnits="userSpaceOnUse" width="20" height="30">
+                          <image xlink:href="images/myface.png" x="0" y="0" width="20" height="20"></image>
+                        </pattern>
+                      </defs>
+
+                      <g id="body">
+                        <!-- <circle id="head" class="body-part" cx="10" cy="10" r="5" fill="url(#water)"/> -->
+                        <line class="body-part" x1="10" y1="17" x2="10" y2="35" stroke="white" stroke-width="1"></line>
+                        <line id="right-arm" class="body-part" x1="10" y1="25" x2="20" y2="18" stroke="white" stroke-width="1"></line>
+                        <line id="left-arm" class="body-part" x1="10" y1="25" x2="0" y2="18" stroke="white" stroke-width="1"></line>
+                        <line id="right-leg" class="body-part" x1="10" y1="35" x2="15" y2="45" stroke="white" stroke-width="1"></line>
+                        <rect id="face" class="body-part" x="0" y="0" width="20" height="20" fill="url(#myface)" transform="matrix(0.9659,0.2588,-0.2588,0.9659,2.9289,-2.2474)"></rect>
+
+                      <line id="left-leg" class="body-part" x1="10" y1="35" x2="5" y2="45" stroke="white" stroke-width="1"></line></g>
+                    </svg>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="projects-jumbotron" class="jumbotron jumbotron-fluid">
+        <div id="projects-header-container" class="container">
+            <h1 class="display-3">Projects</h1>
+            <p class="lead">Here's some of the stuff I've worked on.</p>
+        </div>
+        <div id="projects-tiles-container" class="container">
+            <div class="row">
+                <div id="hipercic-tile" class="col-md-4 tile" data-aos= "flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                  <div class="main-tile">
+                    <div class="front">
+                      <img class="tile-front-image" src="images/hipercic-image.png">
+                    </div>
+                    <div class="back">
+                      <h3 class="tile-header">HiPerCiC</h3>
+                      <p class="tile-text">I am currently working on a team at St. Olaf College developing high performance web applications for various departments on campus.</p>
+                      <a href="https://hipercic.cs.stolaf.edu/" class="btn btn-custom">Check it out!</a>
+                    </div>
+                  </div>
+                </div>
+                <div id="AAO-tile" class="col-md-4 tile" data-aos= "flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                  <div class="main-tile">
+                    <div class="front">
+                      <img id="aao-logo" class="tile-front-image" src="images/aao-logo.png">
+                    </div>
+                    <div class="back">
+                      <h3 class="tile-header">All About Olaf</h3>
+                      <p class="tile-text">I contribute to the open source app All About Olaf, a popular campus aide for St. Olaf students. It is written in React Native and is available for both iOS and android.</p>
+                      <a href="https://itunes.apple.com/us/app/all-about-olaf/id938588319?mt=8" class="btn btn-custom">Check it out!</a>
+                    </div>
+                  </div>
+                </div>
+                <div id="johannescarlsen-tile" class="col-md-4 tile" data-aos= "flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                  <div class="main-tile">
+                    <div class="front">
+                      <img class="tile-front-image" src="images/small-background.jpeg">
+                    </div>
+                    <div class="back">
+                      <h3 class="tile-header">This website!</h3>
+                      <p class="tile-text">I built this website using bootstrap and JQuery.</p>
+                    </div>
+                  </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./assets/js/snap.svg-min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+
+    <!-- <script src="./assets/aos-master/dist/aos.js"></script>  -->
+
+    <script>
+
+        $(document).ready(function() {
+            $("#logo").fadeIn(5000, function() {
+                //Animation Complete
+            });
+        });
+
+        AOS.init();
+
+        // $(".tile").hover(function () {
+        //   $(this).find("h2").css("display", "block");
+        //   console.log(TEST);
+        // });
+
+        $(".main-tile").flip({
+          trigger: 'hover'
+        });
+
+        $("#test").flip({
+          trigger: 'hover'
+        });
+
+        // $("#title-jumbotron-text").click(function () {
+        //   $("#title-jumbotron-text").slideUp("slow");
+        //   console.log("DEBUG");
+        // });
+
+        $(window).scroll(function(){
+            $("#title-jumbotron-text").css("opacity", 1 - $(window).scrollTop() / 400);
+        });
+
+
+        var aboutCounter = 0;
+        var projectCounter = 0;
+        // $(window).scroll(function() {
+        //     if (aboutCounter ==0) {
+        //         var hT = $('#about-jumbotron').offset().top,
+        //             hH = $('#about-jumbotron').outerHeight(),
+        //             wH = $(window).height(),
+        //             wS = $(this).scrollTop();
+        //         if (wS > (hT+hH-wH-500)){
+        //             $("#about-content").animate({left:'0px'},1000);
+        //             $("#about-header").animate({left:'0px'},1000);
+        //             aboutCounter += 1;
+        //         }
+        //     }
+        //     if (projectCounter ==0) {
+        //         var hT = $('#projects-jumbotron').offset().top,
+        //             hH = $('#projects-jumbotron').outerHeight(),
+        //             wH = $(window).height(),
+        //             wS = $(this).scrollTop();
+        //         console.log(wS, (hT+hH-wH))
+        //         if (wS > (hT+hH-wH-200)){
+        //             console.log("go");
+        //             $("#projects-header-container").animate({left:'0px'},1500);
+        //             $("#projects-cards-container").animate({left:'0px'},1500);
+        //             projectCounter += 1;
+        //         }
+        //     }
+        // });
+
+        var s = Snap("#eyes");
+
+        var rightPupil = s.select("#right-pupil");
+        var leftPupil = s.select("#left-pupil");
+
+        var myFrames = [{
+                              animation: { transform: 't10,10' }, dur: 1000 },
+              {               animation: { transform: 't-15,0' }, dur: 1000 },
+              {               animation: { transform: 't0,-10' }, dur: 1000 },
+              {               animation: { transform: 't15,0' }, dur: 1000 },
+              {               animation: { transform: 't-10,0' }, dur: 1000 }];
+
+        function nextFrame ( el, frameArray,  whichFrame ) {
+            if( whichFrame >= frameArray.length ) { return }
+            setTimeout(function () {
+              el.animate( frameArray[ whichFrame ].animation, frameArray[ whichFrame ].dur, nextFrame.bind( null, el, frameArray, whichFrame + 1 ) );
+            }, 5000);
+        }
+
+
+        function do_animation() {
+          nextFrame(rightPupil, myFrames, 0);
+          nextFrame(leftPupil, myFrames, 0);
+          setTimeout(do_animation, 10000);
+        }
+
+        do_animation();
+
+        var stickman_snap = Snap("#stickman");
+
+        var face = stickman_snap.select("#face");
+
+        $("#face").mouseenter(function () {
+          face.animate({transform: 'r-8,10,10'}, 500);
+
+        });
+        $("#face").mouseleave(function () {
+          face.animate({transform: 'r8,10,10'}, 500);
+        });
+
+        // var stickman_snap = Snap("#stickman");
+
+        // var box_snap = Snap("#box");
+        // var key = box_snap.select("#key");
+        // var latch = box_snap.select("#latch");
+        // var box_top = box_snap.select("#box_top");
+        // var box_bottom = box_snap.select("#box_bottom");
+        // var box_background = box_snap.select("#wood");
+        //
+        // var box_open = false;
+        //
+        // $("#key").click( function () {
+        //   if (!box_open) {
+        //     key.animate({cx:"+=5"}, 1000, function () {
+        //       box_top.animate({y:"-=76"}, 1000);
+        //       box_bottom.animate({y:"+=76"}, 1000);
+        //       latch.animate({cy:"-=76"}, 1000);
+        //       key.animate({cy:"-=76"}, 1000);
+        //       box_background.animate({cy:"-=76"}, 1000);
+        //       box_open = true;
+        //     });
+        //   }
+        //   else {
+        //     box_top.animate({y:"+=76"}, 1000);
+        //     box_bottom.animate({y:"-=76"}, 1000);
+        //     latch.animate({cy:"+=76"}, 1000);
+        //     box_background.animate({cy:"+=76"}, 1000);
+        //     key.animate({cy:"+=76"}, 1000, function () {
+        //       key.animate({cx:"-=5"}, 1000);
+        //     });
+        //     box_open = false;
+        //   }
+        // });
+
+        var logo_snap = Snap("#logo-big");
+        var letter_j = logo_snap.select("#J-big");
+        var letter_m = logo_snap.select("#M-big");
+        var letter_c = logo_snap.select("#C-big");
+
+        var logo_opened = false;
+        var animation_finished = true;
+        $(".big-logo-letter").hover( function() {
+          if (!logo_opened && animation_finished) {
+            animation_finished = false;
+            letter_j.animate({x:"-=5"}, 1000);
+            letter_m.animate({x:"+=5"}, 1000);
+            letter_c.animate({x:"+=2", y:"+=5"}, 1000, function () {
+              animation_finished = true;
+            });
+            logo_opened = true;
+          }
+          else if (logo_opened && animation_finished){
+            animation_finished = false;
+            letter_j.animate({x:"+=5"}, 1000);
+            letter_m.animate({x:"-=5"}, 1000);
+            letter_c.animate({x:"-=2", y:"-=5"}, 1000, function () {
+              animation_finished = true;
+            });
+            logo_opened = false;
+          }
+        });
+
+
+    </script>
 </body>
+
 </html>
